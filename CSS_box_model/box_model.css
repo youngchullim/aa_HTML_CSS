@@ -1,0 +1,48 @@
+#first-div, #second-div {
+  height: 200px;
+  width: 200px;
+  padding: 50px;                /* jacket that goes over the body */
+  border: 5px solid black;    /* just the border outside the padding */
+}
+
+#first-div {
+  background-color: #39cccc;
+  box-sizing: content-box;      /* is the default value for box-sizing */
+}
+
+#second-div {
+  background-color: #ff4136;
+  box-sizing: border-box;
+}
+
+#third-div {
+  height: 300px;
+  width: 300px;
+  background-color: chocolate;
+  overflow: auto;             /* even if the content is bigger than 100px heigth and 200px width, keeps everything inside the box */
+}
+
+.third-div1 p {
+  min-height: 10px;           /* minimum height */
+}
+
+.image-1-container {
+  width: 200px;
+  height: 600px;
+  background-color: lightsteelblue;
+}
+
+.image-1-container img {
+  width: 100%;
+}
+
+.image-2-container {
+  display: inline-block;       /* inline-block: makes a block without blocking any other elements or making a new line.*/
+  min-width: 200px;            /* minimum width */
+  min-height: 600px;           /* minimum height */
+  background-color: lightsteelblue;
+}
+
+p {
+  background-color: #7fdbff;
+}
