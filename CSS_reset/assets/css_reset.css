@@ -1,0 +1,19 @@
+html, head, title, script, body, header, nav, 
+aside, h2, section, figure, h1, figcaption, p,
+form, label, input, select, option, footer {
+
+  padding: 0;
+  margin: 0;
+  border: 0;
+
+  font: inherit;
+}
+
+body {
+  line-height: 1.5;
+}
+
+img {
+  width: inherit;
+}
+
